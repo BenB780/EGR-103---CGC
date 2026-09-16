@@ -1,0 +1,63 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1400" height="900" viewBox="0 0 1400 900">
+  <rect width="1400" height="900" fill="#ffffff"/>
+  <text x="700" y="60" text-anchor="middle" font-family="Arial, sans-serif" font-size="32" font-weight="bold">Technical Schematic: Flattened Cardboard Layout</text>
+
+  <!-- base panel -->
+  <rect x="200" y="200" width="420" height="260" fill="#f6f6f6" stroke="#000" stroke-width="4"/>
+  <text x="410" y="335" text-anchor="middle" font-family="Arial, sans-serif" font-size="30">Base Panel 18 in x 10 in</text>
+
+  <!-- front panel -->
+  <rect x="660" y="200" width="420" height="170" fill="#f1f1f1" stroke="#000" stroke-width="4"/>
+  <text x="870" y="290" text-anchor="middle" font-family="Arial, sans-serif" font-size="28">Front/Back Wall 18 in x 8 in</text>
+
+  <!-- side panel -->
+  <rect x="200" y="510" width="230" height="170" fill="#f1f1f1" stroke="#000" stroke-width="4"/>
+  <text x="315" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">Side Wall 10 in x 8 in</text>
+
+  <!-- second side panel -->
+  <rect x="470" y="510" width="230" height="170" fill="#f1f1f1" stroke="#000" stroke-width="4"/>
+  <text x="585" y="600" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">Side Wall 10 in x 8 in</text>
+
+  <!-- top handle reinforcement -->
+  <rect x="740" y="420" width="220" height="90" fill="#e5eefb" stroke="#000" stroke-width="4"/>
+  <text x="850" y="475" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">Carry Support 10 in x 2 in</text>
+
+  <!-- fold lines -->
+  <line x1="200" y1="200" x2="620" y2="200" stroke="#000" stroke-width="3" stroke-dasharray="12 10"/>
+  <line x1="200" y1="460" x2="620" y2="460" stroke="#000" stroke-width="3" stroke-dasharray="12 10"/>
+  <line x1="200" y1="200" x2="200" y2="460" stroke="#000" stroke-width="3" stroke-dasharray="12 10"/>
+  <line x1="620" y1="200" x2="620" y2="460" stroke="#000" stroke-width="3" stroke-dasharray="12 10"/>
+
+  <line x1="660" y1="200" x2="1080" y2="200" stroke="#000" stroke-width="3" stroke-dasharray="12 10"/>
+  <line x1="660" y1="370" x2="1080" y2="370" stroke="#000" stroke-width="3" stroke-dasharray="12 10"/>
+
+  <line x1="200" y1="510" x2="430" y2="510" stroke="#000" stroke-width="3" stroke-dasharray="12 10"/>
+  <line x1="200" y1="680" x2="430" y2="680" stroke="#000" stroke-width="3" stroke-dasharray="12 10"/>
+  <line x1="470" y1="510" x2="700" y2="510" stroke="#000" stroke-width="3" stroke-dasharray="12 10"/>
+  <line x1="470" y1="680" x2="700" y2="680" stroke="#000" stroke-width="3" stroke-dasharray="12 10"/>
+
+  <!-- corner tab markers -->
+  <rect x="185" y="185" width="25" height="25" fill="#c6d7ff" stroke="#000" stroke-width="2"/>
+  <rect x="610" y="185" width="25" height="25" fill="#c6d7ff" stroke="#000" stroke-width="2"/>
+  <rect x="185" y="450" width="25" height="25" fill="#c6d7ff" stroke="#000" stroke-width="2"/>
+  <rect x="610" y="450" width="25" height="25" fill="#c6d7ff" stroke="#000" stroke-width="2"/>
+
+  <!-- dimension arrows -->
+  <line x1="200" y1="150" x2="620" y2="150" stroke="#000" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="410" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">18 in</text>
+
+  <line x1="150" y1="200" x2="150" y2="460" stroke="#000" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="110" y="330" font-family="Arial, sans-serif" font-size="24" transform="rotate(-90 110 330)">10 in</text>
+
+  <line x1="660" y1="150" x2="1080" y2="150" stroke="#000" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="870" y="130" text-anchor="middle" font-family="Arial, sans-serif" font-size="24">18 in</text>
+
+  <line x1="1130" y1="200" x2="1130" y2="370" stroke="#000" stroke-width="3" marker-start="url(#arrow)" marker-end="url(#arrow)"/>
+  <text x="1160" y="285" font-family="Arial, sans-serif" font-size="24" transform="rotate(-90 1160 285)">8 in</text>
+
+  <defs>
+    <marker id="arrow" markerWidth="12" markerHeight="12" refX="6" refY="6" orient="auto">
+      <path d="M0,0 L12,6 L0,12 z" fill="#000"/>
+    </marker>
+  </defs>
+</svg>
